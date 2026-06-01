@@ -5,10 +5,6 @@ package org.example
 
 import org.example.app.App
 
-import org.example.app.Fecha
-
 fun main() {
-    val fecha: Fecha = Fecha(29, 5, 2026)
-    println(App().greeting)
-    println(fecha.toString())
+    println(App(1, 6, 2026).return_dia())
 }
