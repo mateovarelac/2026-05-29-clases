@@ -6,7 +6,7 @@ class App(private var dia2: Int = 0, private var mes2: Int = 0, private var anio
         fun get(): String {
             return "Hello World!"
         }
-        fun return_dia(): String{
-            return "${Fecha(dia2, mes2, anio2)}"
+        fun mostrar(){
+            println("${Fecha(dia2, mes2, anio2)}")
         }
 }

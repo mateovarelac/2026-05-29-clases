@@ -6,5 +6,5 @@ package org.example
 import org.example.app.App
 
 fun main() {
-    println(App(1, 6, 2026).return_dia())
+    App(1, 6, 2026).mostrar()
 }
