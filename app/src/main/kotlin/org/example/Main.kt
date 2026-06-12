@@ -3,8 +3,32 @@
  */
 package org.example
 
-import org.example.app.App
+import org.example.app.Fecha
+
+import org.example.app.Polinomio
+
+import org.example.app.Cuadratica
+
+import org.example.app.MejorCuadratica
 
 fun main() {
-    App().mostrar()
+    val polinomio: Polinomio = Polinomio()
+    Fecha().toString()
+    println(polinomio)
+    val cuadratica: Cuadratica = Cuadratica()
+    println(cuadratica)
+    val mejorcuadratica: MejorCuadratica = MejorCuadratica()
+    println(mejorcuadratica)
+    var objeto: Polinomio
+    objeto = Cuadratica()
+    println(objeto)
+    objeto = MejorCuadratica()
+    println(objeto)
+    var lista = ArrayList <Polinomio>()
+    lista.add(Cuadratica())
+    lista.add(Polinomio())
+    lista.add(MejorCuadratica())
+    for (var p: lista){
+        print(p)
+    }
 }
